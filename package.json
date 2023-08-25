@@ -1,0 +1,20 @@
+{
+  "name": "tr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^5.8.1",
+    "prisma": "^5.2.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.2.0"
+  },
+  "pkg": {
+    "assets": "node_modules/.prisma/client/*node",
+    "targets": [
+      "node18-win-x64"
+    ]
+  },
+  "bin": "index.js"
+}
